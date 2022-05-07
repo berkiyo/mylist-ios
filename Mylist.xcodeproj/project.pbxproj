@@ -12,6 +12,7 @@
 		C0EFAFC328250CEE005F2B8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0EFAFC228250CEE005F2B8F /* Assets.xcassets */; };
 		C0EFAFC628250CEE005F2B8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0EFAFC528250CEE005F2B8F /* Preview Assets.xcassets */; };
 		C0EFAFCE28250E5C005F2B8F /* AddTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EFAFCD28250E5C005F2B8F /* AddTodoView.swift */; };
+		C0EFAFD12825147A005F2B8F /* Todo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0EFAFCF2825147A005F2B8F /* Todo.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C0EFAFC228250CEE005F2B8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0EFAFC528250CEE005F2B8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C0EFAFCD28250E5C005F2B8F /* AddTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoView.swift; sourceTree = "<group>"; };
+		C0EFAFD02825147A005F2B8F /* Todo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Todo.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,7 @@
 		C0EFAFB228250CED005F2B8F = {
 			isa = PBXGroup;
 			children = (
+				C0EFAFCF2825147A005F2B8F /* Todo.xcdatamodeld */,
 				C0EFAFBD28250CED005F2B8F /* Mylist */,
 				C0EFAFBC28250CED005F2B8F /* Products */,
 			);
@@ -151,6 +154,7 @@
 				C0EFAFC128250CED005F2B8F /* ContentView.swift in Sources */,
 				C0EFAFBF28250CED005F2B8F /* MylistApp.swift in Sources */,
 				C0EFAFCE28250E5C005F2B8F /* AddTodoView.swift in Sources */,
+				C0EFAFD12825147A005F2B8F /* Todo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +357,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C0EFAFCF2825147A005F2B8F /* Todo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C0EFAFD02825147A005F2B8F /* Todo.xcdatamodel */,
+			);
+			currentVersion = C0EFAFD02825147A005F2B8F /* Todo.xcdatamodel */;
+			path = Todo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C0EFAFB328250CED005F2B8F /* Project object */;
 }
